@@ -6,20 +6,20 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const navLinks = [
     {
-      id: "1",
+      id: "skill",
       name: "Skills",
     },
     {
-      id: "2",
+      id: "project",
       name: "Projects",
     },
     {
-      id: "3",
+      id: "contact",
       name: "Contact",
     },
   ];
   return (
-    <nav className="relative sticky top-0 mx-auto px-6 bg-slate-950/30 backdrop-blur-xl border border-white/10 max-w-7xl h-[80px] flex justify-between items-center rounded-2xl z-50">
+    <nav className="sticky top-0 mx-auto px-6 bg-slate-950/30 backdrop-blur-xl border border-white/10 max-w-7xl h-[80px] flex justify-between items-center rounded-2xl z-50">
       <div className="flex justify-end items-center h-[40px]">
         <h1 className="text-white text-3xl font-bold ">Hassan</h1>
         <span className="text-violet-500 text-3xl">.</span>
@@ -30,7 +30,7 @@ const Navbar = () => {
             key={link.id}
             className="text-slate-400 text-base font-medium hover:text-violet-400 cursor-pointer hover:-translate-y-0.5 transition-all duration-200 ease-out active:text-violet-400"
           >
-            {link.name}
+            <a href={`#${link.id}`}>{link.name}</a>
           </li>
         ))}
       </ul>
@@ -42,7 +42,7 @@ const Navbar = () => {
               onClick={() => setOpen(false)}
               key={link.id}
             >
-              {link.name}
+              <a href={`#${link.id}`}>{link.name}</a>
             </li>
           ))}
         </ul>
