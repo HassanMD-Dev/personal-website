@@ -2,13 +2,26 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
-  faInstagram,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import heroImg from "../assets/hmd1.png";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Hero = () => {
+  const [text] = useTypewriter({
+    words:[
+      "Frontend Developer",
+    "React Developer",
+    "JavaScript Developer",
+    "Modern Web Developer"
+    ],
+    loop: true,
+    typeSpeed: 80,
+    deleteSpeed:50,
+    delaySpeed:2000
+  });
+  
   return (
     <div className="bg-slate-950 min-h-screen flex flex-col lg:flex-row justify-center lg:justify-around items-center px-6 sm:px-8 lg:px-16 py-20 gap-12">
       <div className="max-w-[600px] text-center lg:text-left">
@@ -18,9 +31,9 @@ const Hero = () => {
         <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-black">
           Hassan Muhayyudin
         </h1>
-        <h2 className="text-violet-400 text-2xl font-bold my-2">
-          Frontend Developer
-        </h2>
+        <div className="flex items-center justify-center lg:justify-start min-h-[40px] mt-3 mb-2">
+         <span className="text-violet-400 font-bold text-xl sm:text-2xl lg:text-3xl">{text} <span className="text-cyan-400 text-xl sm:text-2xl lg:text-3xl">|</span> </span>
+        </div>
         <p className="text-slate-400 max-w-[500px] mx-auto lg:mx-0 text-lg leading-relaxed my-4">
           I build responsive, user-friendly and modern web applications using
           React, JavaScript and Tailwind CSS.
