@@ -21,8 +21,8 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 mx-auto px-6 bg-slate-950/30 backdrop-blur-xl border border-white/10 max-w-7xl h-[80px] flex justify-between items-center rounded-2xl z-50">
       <div className="flex justify-end items-center h-[40px]">
-        <h1 className="text-white text-3xl font-bold ">Hassan</h1>
-        <span className="text-violet-500 text-3xl">.</span>
+        <h1 className="text-white text-3xl font-bold">Hassan</h1>
+        <span className="text-violet-500 text-4xl">.</span>
       </div>
       <ul className="hidden md:flex gap-6">
         {navLinks.map((link) => (

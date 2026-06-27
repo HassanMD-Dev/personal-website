@@ -46,7 +46,7 @@ const Footer = () => {
             />
           </a>
         </div>
-        <hr className="my-8 border-t border-slate-800" />
+        <hr className="my-auto border-t border-slate-800" />
         <div className="text-center">
           <p className="text-slate-500 text-sm">
             © 2026 Hassan Muhayyudin. All rights reserved.
