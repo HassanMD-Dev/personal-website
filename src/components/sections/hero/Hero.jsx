@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../../../assets/hmd1.png";
+import heroImg from "../../../assets/hmd1.webp";
 import HeroBadge from "./HeroBadge";
 import HeroContent from "./HeroContent";
 import HeroButtons from "./HeroButtons";

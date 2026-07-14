@@ -1,16 +1,184 @@
-# React + Vite
+# 🚀 Hassan Muhayyudin Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and SEO-optimized personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, **shadcn/ui**, and **Framer Motion**. This project showcases my frontend development skills, featured projects, and modern UI/UX practices.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Website:** https://hasanmuhayyudin.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 Modern and clean UI
+- 📱 Fully responsive design
+- 🌙 Dark & Light mode
+- ⚡ Smooth animations with Framer Motion
+- 🧭 Active navigation using Intersection Observer
+- 📊 Scroll progress indicator
+- 💼 Featured projects section
+- 🛠 Skills showcase
+- 📬 Functional contact form
+- 🔍 SEO optimized
+- ♿ Accessibility focused
+- 🚀 Fast performance with Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- shadcn/ui
+- Framer Motion
+
+### Libraries
+
+- React Hot Toast
+- Lucide React
+- Font Awesome
+
+### Deployment
+
+- Vercel
+
+---
+
+## 📂 Folder Structure
+
+```text
+src
+│
+├── animations/
+├── assets/
+├── components/
+│   ├── layout/
+│   ├── sections/
+│   └── ui/
+│
+├── data/
+├── hooks/
+├── lib/
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/HassanMD-Dev/portfolio.git
+```
+
+Navigate to the project
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start development server
+
+```bash
+npm run dev
+```
+
+Create production build
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📌 Featured Projects
+
+- 👥 UserHub (Authentication & Redux Toolkit)
+- 🖼 Image Gallery (REST API + Axios)
+- 🍽 Golden Fork Restaurant
+- 🌦 Weather App
+- 🔐 Password Generator
+- ✅ Task Tracker
+
+---
+
+<!-- ## 📈 SEO Optimizations
+
+- Meta Title
+- Meta Description
+- Open Graph Tags
+- Twitter Card
+- Canonical URL
+- robots.txt
+- sitemap.xml
+- Structured Data (JSON-LD)
+
+--- -->
+
+## 📱 Responsive Design
+
+The portfolio is optimized for:
+
+- Mobile
+- Tablet
+- Laptop
+- Desktop
+
+---
+
+<!-- ## 📸 Screenshots
+
+> Add screenshots here after uploading them.
+
+Example:
+
+```md
+![Home](./screenshots/home.png)
+
+![Projects](./screenshots/projects.png)
+``` -->
+
+---
+
+## 📫 Connect With Me
+
+🌐 Portfolio  
+https://hasanmuhayyudin.vercel.app/
+
+💼 LinkedIn  
+https://www.linkedin.com/in/hassanmuhayyudin-dev
+
+💻 GitHub  
+https://github.com/HassanMD-Dev
+
+📧 Email  
+muhayyudinhassan@gmail.com
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you found this project helpful, consider giving it a star on GitHub.

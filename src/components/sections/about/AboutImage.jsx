@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../../assets/hmd1.png";
+import AboutImg from "../../../assets/hmd1.webp";
 import { motion } from "framer-motion";
 const AboutImage = () => {
   return (

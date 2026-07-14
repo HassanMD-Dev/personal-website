@@ -1,9 +1,9 @@
-import userHubImg from "../assets/proj/userhub.png";
-import galleryImg from "../assets/proj/picsum.png";
-import goldenForkImg from "../assets/proj/golden.png";
-import weatherImg from "../assets/proj/weather.png";
-import passwordImg from "../assets/proj/pass.png";
-import taskImg from "../assets/proj/todo.png";  
+import userHubImg from "../assets/proj/userhub.webp";
+import galleryImg from "../assets/proj/picsum.webp";
+import goldenForkImg from "../assets/proj/golden.webp";
+import weatherImg from "../assets/proj/weather.webp";
+import passwordImg from "../assets/proj/pass.webp";
+import taskImg from "../assets/proj/todo.webp";  
 
 const projectsData = [
   {

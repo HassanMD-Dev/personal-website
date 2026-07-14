@@ -16,7 +16,7 @@ const navLinks = [
   },
   {
     id:4,
-    linkId: "#project",
+    linkId: "#projects",
     name: "Projects",
   },
   {
