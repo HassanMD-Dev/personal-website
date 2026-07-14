@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap:  https://hasanmuhayyudin.vercel.app/sitemap.xml

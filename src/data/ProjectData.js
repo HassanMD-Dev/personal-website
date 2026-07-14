@@ -1,59 +1,111 @@
-import pro1 from "../assets/proj/food.png";
-import pro2 from "../assets/proj/counter.png";
-import pro3 from "../assets/proj/facebook.png";
-import pro4 from "../assets/proj/pass.png";
-import pro5 from "../assets/proj/todo.png";
+import userHubImg from "../assets/proj/userhub.png";
+import galleryImg from "../assets/proj/picsum.png";
+import goldenForkImg from "../assets/proj/golden.png";
+import weatherImg from "../assets/proj/weather.png";
+import passwordImg from "../assets/proj/pass.png";
+import taskImg from "../assets/proj/todo.png";  
 
 const projectsData = [
   {
-    id: "1",
-    image: pro1,
-    category: "Featured Project",
-    title: "FoodNest Recipe App",
-    desc: "A recipe discovery application that allows users to search recipes, explore cooking instructions and manage bookmarked recipes through an interactive interface.",
-    tech: ["HTML", "CSS", "JavaScript", "Forkify API"],
-    LiveDemo: "https://friendly-muffin-d68b83.netlify.app",
-    GitHub: "https://github.com/HassanMD-Dev/food-menu-app",
+    id: 1,
+    image: userHubImg,
+    category: "React Application",
+    title: "UserHub",
+    description:
+      "A responsive user management application built with React to practice Redux Toolkit state management, authentication flow, and REST API integration using reusable components.",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Redux Toolkit",
+      "REST API",
+    ],
+    liveUrl: "https://auth-management-rosy.vercel.app/",
+    githubUrl: "https://github.com/HassanMD-Dev/auth-management",
   },
+
   {
-    id: "2",
-    image: pro3,
-    category: "UI Clone",
-    title: "Facebook",
-    desc: "A responsive Facebook login interface recreated with modern frontend techniques focusing on layout accuracy and user interface design.",
-    tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    LiveDemo: "https://stellular-axolotl-f5f2e1.netlify.app",
-    GitHub: "https://github.com/HassanMD-Dev/fb-auth-assign",
+    id: 2,
+    image: galleryImg,
+    category: "React Application",
+    title: "Image Gallery",
+    description:
+      "A responsive image gallery built with React that fetches images from an external API and includes pagination with a clean, modern user interface.",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Axios",
+      "REST API",
+    ],
+    liveUrl: "https://gallery-app-beta.vercel.app/  ",
+    githubUrl: "https://github.com/HassanMD-Dev/Gallery-app",
   },
+
   {
-    id: "3",
-    image: pro4,
-    category: "Utility Application",
-    title: "Secure Password Generator",
-    desc: "A password generation tool that creates secure passwords with customizable length and character selection options.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    LiveDemo: "https://shiny-naiad-249552.netlify.app",
-    GitHub: "https://github.com/HassanMD-Dev/assign-password-generator",
+    id: 3,
+    image: goldenForkImg,
+    category: "Frontend Project",
+    title: "Golden Fork",
+    description:
+      "A modern multi-page restaurant website featuring responsive layouts, React Router navigation, reusable components, and smooth user experience.",
+    technologies: [
+      "React",
+      "React Router",
+      "Tailwind CSS",
+    ],
+    liveUrl: "https://golden-fork-rah1.vercel.app/",
+    githubUrl: "https://github.com/HassanMD-Dev/golden-fork",
   },
+
   {
-    id: "4",
-    image: pro5,
-    category: "Productivity App",
-    title: "Task Management App",
-    desc: "A task management application that enables users to add, organize and remove daily tasks through a clean user interface.",
-    tech: ["HTML", "CSS", "JavaScript", "Local Storage"],
-    LiveDemo: "https://statuesque-daffodil-488109.netlify.app",
-    GitHub: "https://github.com/HassanMD-Dev/todo-app",
+    id: 4,
+    image: weatherImg,
+    category: "React Application",
+    title: "Weather App",
+    description:
+      "A responsive weather application that displays real-time weather information by integrating an external weather API with a clean and user-friendly interface.",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "REST API",
+    ],
+    liveUrl: "https://hassanmd-dev.github.io/weather-app-live/",
+    githubUrl: "https://github.com/HassanMD-Dev/weather-app-live",
   },
+
   {
-    id: "5",
-    image: pro2,
-    category: "React Fundamentals",
-    title: "Interactive Counter App",
-    desc: "A simple React application demonstrating state management with increment, decrement and reset functionality.",
-    tech: ["React", "JavaScript", "CSS", "useState"],
-    LiveDemo: "https://hmd-counter-app.vercel.app",
-    GitHub: "https://github.com/HassanMD-Dev/counterApp",
+    id: 5,
+    image: passwordImg,
+    category: "JavaScript Project",
+    title: "Password Generator",
+    description:
+      "A customizable password generator that creates strong passwords with adjustable length and character options through a simple and intuitive interface.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    liveUrl: "https://shiny-naiad-249552.netlify.app",
+    githubUrl: "https://github.com/HassanMD-Dev/assign-password-generator",
+  },
+
+  {
+    id: 6,
+    image: taskImg,
+    category: "JavaScript Project",
+    title: "Task Tracker",
+    description:
+      "A task management application that allows users to add, organize, complete, and remove daily tasks with persistent data stored in Local Storage.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Local Storage",
+    ],
+    liveUrl: "https://statuesque-daffodil-488109.netlify.app",
+    githubUrl: "https://github.com/HassanMD-Dev/todo-app",
   },
 ];
 
